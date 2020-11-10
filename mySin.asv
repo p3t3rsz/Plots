@@ -22,7 +22,3 @@ xlabel('x_A')
 ylabel('y_B')
 
 %% Title
-title('y_B = sin(x_B) ')
-
-%% Legend
-legend(' y_B ')
