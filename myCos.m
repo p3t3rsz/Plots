@@ -25,5 +25,5 @@ ylabel('y_A')
 title('y_A = cos(x_A) ')
 
 %% Legend
-legend(' y_A ', "abc", "def")
+legend(' y_A ', "abc", "def", "aaa")
 
