@@ -10,7 +10,7 @@ y_cos = cos(x);
 figure(1), hold on, box on
 
 %% Plotting figure
-plot(x, y_cos, 'm--')
+plot(x, y_cos, 'k-')
 
 %% Grid
 grid on
