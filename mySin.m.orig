@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+%% mySin
+
+=======
+%% init
+clc; clear all; close all;
+
+%% mySin
+>>>>>>> 11561a1ff644fcbb99bae4b1d51d89f9abf0075e
+%% Function domain
+x = [0:0.1:2*pi]';
+
+%% Function values
+<<<<<<< HEAD
+y_sin = sin(x)
+
+%% Figure initialization
+figure(1), hold on, box on
+
+%% Plotting figure
+plot(x, y_sin, 'r--')
+
+%% Grid
+grid minor
+
+%% x-label
+xlabel('x_A')
+
+%% y-label
+ylabel('y_B')
+
+%% Title
+title('y_B = sin(x_B) ')
+
+%% Legend
+legend(' y_B ')
+=======
+y_sin = sin(x);
+
+%% Figure initialization
+figure(1); hold on; box on;
+
+%% Plotting figure
+plot(x, y_sin, "b-")
+
+%% Grid
+grid on;
+
+%% Title
+title("y_A = sin(x_A)")
+
+%% x-label
+xlabel("x_A")
+
+%% y-label
+ylabel("y_A")
+
+%% legend
+legend("y_A")
+>>>>>>> 11561a1ff644fcbb99bae4b1d51d89f9abf0075e
